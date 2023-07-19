@@ -25,7 +25,6 @@ body {
 section {
     padding: 0px var(--primary-lr-padding);
     margin: var(--primary-tb-margin) 0px;
-    border: 1px solid saddlebrown;
 }
 
 .section-heading {
@@ -96,8 +95,7 @@ h3>span {
 
 /* ===================== header ===================== */
 header {
-    /* height: 700px; */
-    border: 1px solid tomato;
+   
 }
 
 /* --------- navbar --------- */
@@ -252,7 +250,6 @@ nav>ul :last-child a {
     border-radius: 16px;
     overflow: hidden;
     position: relative;
-    border: 2px solid black;
     margin: 48px 0px 24px 0px;
 }
 
@@ -301,10 +298,6 @@ nav>ul :last-child a {
     height: 554px;
 }
 
-.play-instantly-section div {
-    /* border: 1px solid blue; */
-}
-
 .play-instantly-description {
     text-align: right;
     width: 45%;
@@ -312,7 +305,6 @@ nav>ul :last-child a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .play-games-play-instantly-image-container {
@@ -343,10 +335,6 @@ nav>ul :last-child a {
     height: 554px;
 }
 
-.play-instantly-section div {
-    /* border: 1px solid blue; */
-}
-
 .play-games-description {
     text-align: left;
     width: 45%;
@@ -371,7 +359,6 @@ nav>ul :last-child a {
 
 /* --------- careers section --------- */
 .career-section {
-    /* height: 821px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -384,14 +371,8 @@ nav>ul :last-child a {
     background-position: right center,center;
 }
 
-/* .career-description,.career-img-container {
-    width: 50%;
-    border: 1px solid black;
-} */
-
 .career-description {
     width: 65%;
-    border: 1px solid black;
 }
 
 .career-description h3,.career-description p{
@@ -426,14 +407,6 @@ nav>ul :last-child a {
     margin-top: 40px;
 }
 
-/* .career-img-container {
-    width: 60%;
-} 
-
-.career-img-container>img {
-    width: 100%;
-}*/
-
 /* --------- genre section --------- */
 
 .genre-section {
@@ -443,9 +416,6 @@ nav>ul :last-child a {
 
 .genre-container {
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    /* justify-content: flex-start; */
     gap: 24px;
     flex-wrap: wrap;
 
@@ -511,7 +481,7 @@ footer {
     margin-bottom: 18px;
 }
 
-.nav-footer-logo-holder>h3,
+.footer-logo,
 .footer-ul-1 li a,
 .footer-ul-2 li a {
     color: white;
