@@ -18,14 +18,24 @@ body {
     font-size: 1.6rem;
 }
 
-.section-heading{
+section {
+    padding: 0px var(--primary-lr-padding);
+}
+
+.section-heading {
     color: #0B0223;
     font-size: 4.8rem;
     font-weight: 700;
     line-height: 60px;
+    margin-bottom: 24px;
 }
 
-.paragraph-style-1 {}
+.paragraph-style-1 {
+    color: #534C64;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 30px;
+}
 
 .paragraph-style-2 {
     color: #534C64;
@@ -34,7 +44,7 @@ body {
 }
 
 .primary-button {
-    
+
     padding: 21px 40px;
     border: none;
     outline: none;
@@ -45,8 +55,8 @@ body {
     text-transform: uppercase;
 }
 
-.pink-btn{
-   background-image: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-color) 100%); 
+.pink-btn {
+    background-image: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-color) 100%);
 }
 
 
@@ -151,7 +161,7 @@ nav>ul :last-child a {
     margin-right: 10px;
 }
 
-.blue-btn{
+.blue-btn {
     background-color: #4EC5F7;
 }
 
@@ -159,11 +169,50 @@ nav>ul :last-child a {
     width: 100%;
 }
 
-
-
 /* ===================== main ===================== */
 
 /* --------- we are gamer section --------- */
+.we-are-gamer-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 40px var(--primary-lr-padding);
+}
+
+.we-are-gamer-image-holder {
+    width: 60%;
+}
+
+.we-are-gamer-image-holder img {
+    width: 100%;
+}
+
+.we-are-gamer-description {
+    width: 40%;
+    text-align: right;
+}
+
+.we-are-gamer-description>h3{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.purpose{
+    color: #534C64;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.unleash{
+    color: #534C64;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 45px;
+}
 
 /* --------- funny videos section --------- */
 
