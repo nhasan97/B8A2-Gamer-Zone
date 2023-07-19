@@ -30,7 +30,7 @@ section {
 
 .section-heading {
     color: #0B0223;
-    font-size: 4.8rem;
+    font-size: 4.5rem;
     font-weight: 700;
     line-height: 60px;
     margin-bottom: 24px;
@@ -66,6 +66,7 @@ h3>span {
     font-size: 2rem;
     font-weight: 600;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .pink-btn {
@@ -214,6 +215,10 @@ nav>ul :last-child a {
     color: transparent;
 }
 
+.we-are-gamer-description>button{
+    margin: 32px 0px;
+}
+
 .purpose {
     color: #534C64;
     font-size: 2.4rem;
@@ -293,7 +298,7 @@ nav>ul :last-child a {
     align-items: flex-start;
     justify-content: center;
     gap: 180px;
-    height: 550px;
+    height: 554px;
 }
 
 .play-instantly-section div {
@@ -335,7 +340,7 @@ nav>ul :last-child a {
     align-items: flex-start;
     justify-content: center;
     gap: 180px;
-    height: 550px;
+    height: 554px;
 }
 
 .play-instantly-section div {
@@ -365,11 +370,75 @@ nav>ul :last-child a {
 }
 
 /* --------- careers section --------- */
+.career-section {
+    /* height: 821px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    padding: 120px var(--primary-lr-padding);
+    margin: 0px 0px;
+    background-image:url('../images/Group\ 65.png'), linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-repeat: no-repeat,no-repeat;
+    background-size: 700px 100%,auto;
+    background-position: right center,center;
+}
+
+/* .career-description,.career-img-container {
+    width: 50%;
+    border: 1px solid black;
+} */
+
+.career-description {
+    width: 65%;
+    border: 1px solid black;
+}
+
+.career-description h3,.career-description p{
+    color: white;
+}
+
+.career-ul-holder{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.career-ul-1{
+    text-align: left;
+}
+
+.career-ul-2{
+    text-align: right;
+}
+.career-description ul li {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.career-description button{
+    color: var(--primary-color);
+    background-color: white;
+    margin-top: 40px;
+}
+
+/* .career-img-container {
+    width: 60%;
+} 
+
+.career-img-container>img {
+    width: 100%;
+}*/
 
 /* --------- genre section --------- */
 
 .genre-section {
     margin: 0px 0px;
+    padding: 120px var(--primary-lr-padding);
 }
 
 .genre-container {
@@ -412,40 +481,43 @@ nav>ul :last-child a {
 }
 
 /* ===================== footer ===================== */
-footer{
+footer {
     background-color: #0B0223;
     padding: 120px var(--primary-lr-padding);
 }
-.footer-content{
+
+.footer-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.footer-ul-1{
+.footer-ul-1 {
     display: flex;
     gap: 60px;
     margin: 56px 0px;
 }
 
-.footer-ul-2{
+.footer-ul-2 {
     display: flex;
     gap: 40px;
 }
 
-.footer-ul-3{
+.footer-ul-3 {
     display: flex;
     gap: 60px;
     margin-top: 64px;
     margin-bottom: 18px;
 }
 
-.nav-footer-logo-holder>h3,.footer-ul-1 li a,.footer-ul-2 li a{
+.nav-footer-logo-holder>h3,
+.footer-ul-1 li a,
+.footer-ul-2 li a {
     color: white;
 }
 
-.footer-ul-3 li a,footer small{
+.footer-ul-3 li a,
+footer small {
     color: rgba(255, 255, 255, 0.60);
 }
-
