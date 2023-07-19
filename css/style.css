@@ -36,6 +36,13 @@ section {
     margin-bottom: 24px;
 }
 
+h3>span {
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 .paragraph-style-1 {
     color: #534C64;
     font-size: 1.8rem;
@@ -227,12 +234,12 @@ nav>ul :last-child a {
     text-align: center;
 }
 
-.funny-videos-section>h3 span {
+/* .funny-videos-section>h3 span {
     background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-}
+} */
 
 .funny-videos-card-container {
     display: flex;
@@ -290,25 +297,24 @@ nav>ul :last-child a {
 /* --------- play instantly section --------- */
 .play-instantly-section {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 180px;
+    height: 550px;
 }
 
 .play-instantly-section div {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
-.play-games-play-instantly-description {
+.play-instantly-description {
     text-align: right;
     width: 45%;
-}
-
-.play-games-play-instantly-description>h3 span {
-    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
 }
 
 .play-games-play-instantly-image-container {
@@ -316,11 +322,13 @@ nav>ul :last-child a {
     width: 55%;
 }
 
-.play-games-play-instantly-image1 {
+.play-instantly-image1 {
     width: 100%;
+    height: 470px;
+    object-fit: cover;
 }
 
-.play-games-play-instantly-image2 {
+.play-instantly-image2 {
     position: absolute;
     width: 50%;
     left: -100px;
@@ -328,6 +336,41 @@ nav>ul :last-child a {
 }
 
 /* --------- play games section --------- */
+.play-games-section{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 180px;
+    height: 550px;
+}
+
+.play-instantly-section div {
+    /* border: 1px solid blue; */
+}
+
+.play-games-description{
+    text-align: left;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.play-games-image1{
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+}
+
+.play-games-image2 {
+    position: absolute;
+    width: 50%;
+    right: -100px;
+    bottom: -80px;
+}
+
 
 /* --------- careers section --------- */
 
