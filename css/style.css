@@ -412,3 +412,40 @@ nav>ul :last-child a {
 }
 
 /* ===================== footer ===================== */
+footer{
+    background-color: #0B0223;
+    padding: 120px var(--primary-lr-padding);
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-ul-1{
+    display: flex;
+    gap: 60px;
+    margin: 56px 0px;
+}
+
+.footer-ul-2{
+    display: flex;
+    gap: 40px;
+}
+
+.footer-ul-3{
+    display: flex;
+    gap: 60px;
+    margin-top: 64px;
+    margin-bottom: 18px;
+}
+
+.nav-footer-logo-holder>h3,.footer-ul-1 li a,.footer-ul-2 li a{
+    color: white;
+}
+
+.footer-ul-3 li a,footer small{
+    color: rgba(255, 255, 255, 0.60);
+}
+
