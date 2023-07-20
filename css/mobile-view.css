@@ -4,10 +4,13 @@
     :root {
         font-size: 62.5%;
         --primary-color: #FF42A5;
-        --primary-lr-padding: 40px;
+        --primary-lr-padding: 0px;
         --primary-tb-margin: 120px;
     }
 
+    .hide {
+        display: none;
+    }
     .section-heading {
         font-size: 3.2rem;
     }
@@ -22,17 +25,17 @@
     }
 
     .nav-footer-logo {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
 
     /* ===================== header ===================== */
 
     /* --------- navbar --------- */
     nav {
-
         flex-direction: column;
         width: 100%;
-        gap: 50px;
+        gap: 30px;
+        padding: 30px var(--primary-lr-padding);
     }
 
     nav>ul {
@@ -68,7 +71,8 @@
     .we-are-gamer-section {
         flex-direction: column;
         justify-content: center;
-        width: 100%;
+        width: calc(100%-30px);
+        padding: 0px 15px;
     }
 
     .we-are-gamer-image-holder {
@@ -84,10 +88,19 @@
         text-align: center;
     }
 
+    .purpose {
+        font-size: 2rem;
+    }
+    
+    .unleash {
+        font-size: 2.4rem;
+    }
+
     /* --------- funny videos section --------- */
 
     .funny-videos-section {
-        width: 100%;
+        width: calc(100%-30px);
+        padding: 0px 15px;
         text-align: center;
     }
 
@@ -157,10 +170,12 @@
 
     /* --------- play instantly section --------- */
     .play-instantly-section {
-        width: 100%;
+        width: calc(100%-30px);
         height: 100%;
+        padding: 0px 15px;
         flex-direction: column;
-        gap: 85px;
+        gap: 50px;
+        /* border: 1px solid blue; */
     }
 
     .play-instantly-description {
@@ -176,6 +191,7 @@
     .play-instantly-image1 {
         position: relative;
         width: 85%;
+        height: 100%;
         right: -65px;
     }
 
@@ -185,10 +201,11 @@
 
     /* --------- play games section --------- */
     .play-games-section {
-        width: 100%;
         height: 100%;
+        width: calc(100%-30px);
+        padding: 0px 15px;
         flex-direction: column;
-        gap: 85px;
+        gap: 50px;
     }
 
     .play-games-description {
@@ -198,6 +215,7 @@
 
     .play-games-image1 {
         width: 85%;
+        height: 100%;
         object-fit: cover;
     }
 
@@ -214,13 +232,36 @@
     /* --------- genre section --------- */
 
     .genre-section {
-        width: 100%;
+        width: calc(100%-30px);
+        padding: 120px 15px;
+        margin: 0px 0px;
+        /* padding: 120px var(--primary-lr-padding); */
     }
 
     .genre-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
+        row-gap: 50px;
+        column-gap: 5px;
+    }
+    .genre-option {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:auto;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    .genre-option img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .genre-option h4 {
+        color: #0B0223;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-left: 5px;
     }
 
     /* ===================== footer ===================== */
