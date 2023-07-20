@@ -6,6 +6,7 @@
         --primary-color: #FF42A5;
         --primary-lr-padding: 0px;
         --primary-tb-margin: 120px;
+        --secondary-lr-padding: 15px;
     }
 
     .hide {
@@ -73,8 +74,8 @@
     .we-are-gamer-section {
         flex-direction: column;
         justify-content: center;
-        width: calc(100%-30px);
-        padding: 0px 15px;
+        width: calc(100%-(2*var(--secondary-lr-padding)));
+        padding: 0px var(--secondary-lr-padding);
     }
 
     .we-are-gamer-image-holder {
@@ -101,8 +102,8 @@
     /* --------- funny videos section --------- */
 
     .funny-videos-section {
-        width: calc(100%-30px);
-        padding: 0px 15px;
+        width: calc(100%-(2*var(--secondary-lr-padding)));
+        padding: 0px var(--secondary-lr-padding);
         text-align: center;
     }
 
@@ -171,9 +172,9 @@
 
     /* --------- play instantly section --------- */
     .play-instantly-section {
-        width: calc(100%-30px);
         height: 100%;
-        padding: 0px 15px;
+        width: calc(100%-(2*var(--secondary-lr-padding)));
+        padding: 0px var(--secondary-lr-padding);
         flex-direction: column;
         gap: 50px;
         /* border: 1px solid blue; */
@@ -202,8 +203,8 @@
     /* --------- play games section --------- */
     .play-games-section {
         height: 100%;
-        width: calc(100%-30px);
-        padding: 0px 15px;
+        width: calc(100%-(2*var(--secondary-lr-padding)));
+        padding: 0px var(--secondary-lr-padding);
         flex-direction: column;
         gap: 50px;
     }
@@ -232,8 +233,8 @@
     /* --------- genre section --------- */
 
     .genre-section {
-        width: calc(100%-30px);
-        padding: 120px 15px;
+        width: calc(100%-(2*var(--secondary-lr-padding)));
+        padding: 120px var(--secondary-lr-padding);
         margin: 0px 0px;
     }
 
