@@ -94,9 +94,7 @@ h3>span {
 }
 
 /* ===================== header ===================== */
-header {
-    
-}
+
 
 /* --------- navbar --------- */
 nav {
@@ -219,14 +217,14 @@ nav>ul :last-child a {
 
 .purpose {
     color: #534C64;
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 45px;
 }
 
 .unleash {
     color: #534C64;
-    font-size: 3.2rem;
+    font-size: 2.4rem;
     font-weight: 700;
     line-height: 45px;
 }
